@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-05-10T06:49:24.281Z",
+        "line": 3,
+        "name": "Validate Free CRM Home Page Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2952116241,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6372333,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login Page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1480599487,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs into app",
+            "match": {
+              "location": "HomePageSteps.user_logs_into_app()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4295738,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate logged in username",
+            "match": {
+              "location": "HomePageSteps.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRm Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "file:/Users/elmurotyangiboev/eclipse-workspace/CucumberFramework_POM/src/main/java/com/qa/feature/freecrm.feature",
+    "tags": []
+  }
+]
